@@ -1,0 +1,10 @@
+print("Вводите три точки A, B, C на числовой оси")
+a = int(input("a : "))
+b = int(input("b : "))
+c = int(input("c : "))
+ac = abs(c-a)
+bc = abs(c-b)
+acbc = ac + bc
+print("ac : ", ac)
+print("bc : ", bc)
+print("ac+bc : ", acbc)

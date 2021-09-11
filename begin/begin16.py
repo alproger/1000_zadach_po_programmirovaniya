@@ -1,0 +1,5 @@
+print("Вводие 2 чисел на числовой оси")
+son1 = int(input("son1 : "))
+son2 = int(input("son2 : "))
+masofa = abs(son2-son1)
+print("расстояние : ", masofa)
