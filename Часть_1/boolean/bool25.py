@@ -1,3 +1,3 @@
 x = int(input("x : "))
 y = int(input("y : "))
-print("|",x,y,"| kordinatada 2-chorakda : ",(x<0 and y>0))
+print(f"Точка скоординатами ({x}, {y}) лежит во второй координатной четверти : ",(x<0 and y>0))

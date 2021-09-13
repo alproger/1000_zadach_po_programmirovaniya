@@ -1,3 +1,3 @@
 x = int(input("x : "))
 y = int(input("y : "))
-print("|",x,y,"| kordinatada 4-chorakda : ",(x>0 and y<0))
+print(f"точка с координатами ({x}, {y}) лежит в четвертой координатной четверти : ",(x>0 and y<0))
