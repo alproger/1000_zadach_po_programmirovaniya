@@ -1,0 +1,7 @@
+print("shaxmat doskasidai kordinatani kiriting \n 1-maydon : ")
+x = int(input("x : "))
+y = int(input("y : "))
+print("2-maydon : ")
+x1 = int(input("x1 : "))
+y1 = int(input("y1 : "))
+print("kiritilgan [",x,y,"] va [",x1,y1,"] kordinatalar bir xil rangda : ",(x+y)%2==(x1+y1)%2)

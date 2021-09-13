@@ -1,0 +1,7 @@
+print("shaxmat doskasidai kordinatani kiriting \n shoh kordinatasi : ")
+x = int(input("x : "))
+y = int(input("y : "))
+print("shoh o'tishi kerak bo'lgan kordinata : ")
+x1 = int(input("x1 : "))
+y1 = int(input("y1 : "))
+print("shoh [",x,y,"] kordinatadan [",x1,y1,"] kordinataga  o'ta oladi : ",(x+1==x1 or x-1==x1 ) or (y+1==y1 or y-1==y1))
