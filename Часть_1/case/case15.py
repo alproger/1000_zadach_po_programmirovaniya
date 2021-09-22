@@ -33,6 +33,13 @@ if card in cards.keys() :
 
     if type_card in type_cards.keys():
         mesage += f' {type_cards[type_card]}'
+
+        print(f'Вы вводили {mesage}')
     
-print(f'ВЫ вводили {mesage}')
+    else :
+        print('ощибка!')
+
+else :
+    print('ощибка!')
+   
 
