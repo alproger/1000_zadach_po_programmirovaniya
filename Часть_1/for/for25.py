@@ -7,9 +7,9 @@ n = int(input('N : '))
 summa = 0
 
 for i in range(1, n+1):
+
     result = (-x ** i) / i
     result *= -1
     summa += result
-
 
 print(summa)
